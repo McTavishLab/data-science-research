@@ -18,7 +18,7 @@ URL_PATTERN = r'https?://.+'
 
 # Defaults.
 CARPENTRIES = ("dc", "swc", "lc", "cp")
-DEFAULT_CONTACT_EMAIL = 'team@carpentries.org'
+DEFAULT_CONTACT_EMAIL = 'lsanchezreyes2@ucmerced.edu'
 
 USAGE = 'Usage: "workshop_check.py path/to/root/directory"'
 

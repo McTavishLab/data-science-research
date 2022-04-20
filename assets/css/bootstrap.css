@@ -1083,10 +1083,13 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 20px; /* modify this number to change font size */
   line-height: 1.42857143;
   color: #333333;
-  background-color: #fff;
+  background-color: #DAA90050; /* used uc merced official color
+  "california poppy gold" #DAA900 OR
+  "golden wheat" #FFBF3C OR
+  "sierra sky blue" #0091B3, with 50 transarency */
 }
 input,
 button,
@@ -1147,7 +1150,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 5px solid #DAA900;
 }
 .sr-only {
   position: absolute;
@@ -2383,11 +2386,11 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #ddd;
+  border-top: 10px solid #ddd;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 20px solid #ddd;
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
@@ -2398,7 +2401,7 @@ th {
   border-top: 0;
 }
 .table > tbody + tbody {
-  border-top: 2px solid #ddd;
+  border-top: 20px solid #ddd;
 }
 .table .table {
   background-color: #fff;
@@ -2412,7 +2415,7 @@ th {
   padding: 5px;
 }
 .table-bordered {
-  border: 1px solid #ddd;
+  border: 10px solid #ddd;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,
@@ -2420,11 +2423,11 @@ th {
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #ddd;
+  border: 10px solid #ddd;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {
-  border-bottom-width: 2px;
+  border-bottom-width: 20px;
 }
 .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #f9f9f9;
@@ -5035,8 +5038,8 @@ a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
-  background-color: #eeeeee;
+  color: #eeeeee;
+  background-color: #002856; /*"Lake Yosemite Blue" uc merced official color */
 }
 .jumbotron h1,
 .jumbotron .h1 {
